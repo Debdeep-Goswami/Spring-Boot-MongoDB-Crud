@@ -12,4 +12,7 @@ public class HomePageController {
     public String home(){
         return "This is the home page for this application";
     }
+
+    @GetMapping("/debdeep")
+    public String debdeep(){return "Hi, This is Debdeep";}
 }
