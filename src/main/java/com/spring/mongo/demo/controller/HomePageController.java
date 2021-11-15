@@ -15,4 +15,8 @@ public class HomePageController {
 
     @GetMapping("/debdeep")
     public String debdeep(){return "Hi, This is Debdeep";}
+
+    @GetMapping("/shashwat")
+    public String shashwat(){return "Shashwat was here";}
+
 }
